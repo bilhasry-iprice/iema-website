@@ -406,6 +406,11 @@ span.menu-wording {
     .container-footer h3 {
         margin-bottom: 15px;
     }
+    
+    #main-footer{
+        padding: 25px 0px 50px 0px !important;
+    }
+
     #faq h3,
     #faq h4 {
         padding: 10px 25px;
@@ -427,6 +432,71 @@ span.menu-wording {
         margin: 0px auto;
     }
 }
+
+@media(min-width: 767px) {
+
+    img{
+        max-width: 100% !important;
+    }
+    .side-content-vote, .widget-tc, 
+    .banners .col-md-6,
+    .footer-note .col-md-6{
+        width: 50%;
+        width: -webkit-calc(50% - 10px);
+        width: -moz-calc(50% - 10px);
+        width: calc(50% - 10px);
+    }
+
+    .partner-item, 
+    .expert-item{
+        width: 33.3333%;
+        width: -webkit-calc(33.3333% - 5px);
+        width: -moz-calc(33.3333% - 5px);
+        width: calc(33.3333% - 5px);
+    }
+
+    .about_iema{
+        width: 66.6667%;
+        width: -webkit-calc(66.6667% - 20px);
+        width: -moz-calc(66.6667% - 20px);
+        width: calc(66.6667% - 20px);
+    }
+
+    span.menu-wording,
+    .brand{
+        display: none;
+    }
+    #countdown .time-parent {
+        width: 68%;
+    }
+    
+    #countdown .col-lg-12{
+        margin:0px auto;
+        display:block;
+        float:none;
+    }
+    .glyphicon.glyphicon-chevron-right {
+        right: 25%;
+    }
+    .glyphicon.glyphicon-chevron-left {
+        left: 25%;
+    }
+    #gallery .content_detail {
+        height: 500px;
+    }
+    
+    #main-footer{
+        padding: 25px 0px 50px 0px !important;
+    }
+    #main-footer .content-block{
+        padding: 0px 25px;
+    }
+
+    .navbar-nav.content-block{
+        padding: 0px 0px !important;
+    }
+}
+
 @media (min-width: 1024px) {
     span.menu-wording,
     .brand{
@@ -476,16 +546,5 @@ span.menu-wording {
         margin-top: 25px;
         margin-left: 75px;
         float: right;
-    }
-}
-@media(min-width: 767px) {
-    .glyphicon.glyphicon-chevron-right {
-        right: 25%;
-    }
-    .glyphicon.glyphicon-chevron-left {
-        left: 25%;
-    }
-    #gallery .content_detail {
-        height: 500px;
     }
 }
