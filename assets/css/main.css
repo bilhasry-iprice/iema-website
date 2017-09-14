@@ -452,7 +452,8 @@ span.menu-wording {
     }
 
     .side-content-vote, .widget-tc, 
-    .banners .col-md-6{
+    .banners .col-md-6,
+    .footer-note .col-md-6{
         width: 50%;
         width: -webkit-calc(50% - 10px);
         width: -moz-calc(50% - 10px);
