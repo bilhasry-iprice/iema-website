@@ -1,3 +1,4 @@
+var open = false;
 a.
   component('sectionList', {
     templateUrl: 'section-list/section-list.template.html',
@@ -6,6 +7,7 @@ a.
       	method: "GET",
       	url: "data/section.data.json"
       }).then(function mySuccess(response){
+
           $scope.testtext = "<strong>this is html</strong>";
       	  $scope.sections = response.data;
          
@@ -32,6 +34,20 @@ a.
                     }//EOF ELSE
                 }//EOF FUNCTION
                 var interval = setInterval(updateClock,1000);
+
+                $('.more-button').on('click', function(){
+                  
+                  if( ! open ){
+                    $('.more-content').removeClass('hidden');
+                    $(this).html('Read Less');
+                    open= true;
+                  }else{
+                    $('.more-content').addClass('hidden');
+                    $(this).html('Read More');
+                    open= false;
+                  }
+                  
+                });
           };
       });
     }
