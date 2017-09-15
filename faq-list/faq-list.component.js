@@ -6,6 +6,7 @@ a.component('faqList', {
       	url: "data/data.json"
       }).then(function mySuccess(response){
       	 $scope.faq = response.data.faq;
+         
          $scope.collapse = function($event){
           $($event.currentTarget).next('.collapse-content').slideToggle(500);
 

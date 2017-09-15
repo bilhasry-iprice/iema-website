@@ -2,7 +2,7 @@
     {
         "menus" : [
                 {
-                    "url" : "/",
+                    "url" : "#vote",
                     "title" : "Vote"
                 },
                 {
@@ -35,10 +35,10 @@
                 }
             ],
         "footer" : {
-            "title" : "iPrice E-Commerce Merchant Awards 2016",
+            "title" : "iPrice E-Commerce Merchant Awards 2017",
             "menus" : [
                     {
-                        "url" : "",
+                        "url" : "#about",
                         "title" : "About"
                     },
                     {
@@ -68,7 +68,7 @@
                         "questions" : [
                                 {
                                     "title" : "Why should I vote?",
-                                    "content" : "<p>If you are reading this, chances are that you’re already enjoying the convenience of e-commerce shopping. By voting at the iPrice E-Commerce Awards 2016, you can show your support for your favorite e-commerce stores and merchants – as well as giving yourself the chance to win a Samsung Smartphone!</p>"
+                                    "content" : "<p>If you are reading this, chances are that you’re already enjoying the convenience of e-commerce shopping. By voting at the iPrice E-Commerce Awards 2017, you can show your support for your favorite e-commerce stores and merchants – as well as giving yourself the chance to win a Samsung Smartphone!</p>"
                                 },
                                 {
                                     "title" : "How do I vote?",
@@ -85,7 +85,7 @@
                         "questions" : [
                                 {
                                     "title" : "How do I enlist my e-commerce business for the iEMA voting & judging sessions?",
-                                    "content" : "<img src='assets/img/schema-my.png' >"
+                                    "content" : "<img src='assets/img/iEMA-schema-2017.png' >"
                                 },
                                 {
                                     "title" : "When is the voting & judging period?",
@@ -109,7 +109,7 @@
                                 },
                                 {
                                     "title" : "When and where will the iEMA finalists be announced?",
-                                    "content" : "<p>Winners and finalists of the awards will be announced at the eTail Asia 2018’s awards ceremony in Marina Bay, Singapore on 8th and 9th March 2018.</p>"
+                                    "content" : "<p>Winners and finalists of the awards will be announced at the eTail Asia 2018’s awards ceremony in Sheraton Towers, Singapore on 6th and 8th March 2018.</p>"
                                 },
                                 {
                                     "title" : "Where will the votes, reviews, & rankings be displayed, and where is it stored?",

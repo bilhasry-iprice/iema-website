@@ -50,6 +50,37 @@
 			</div>
 		</div>
 	</div>
+	<div ng-switch-when="nomination-form" class="container-fluid">
+		<h3>{{section.title}}</h3>
+		<form action="" class="form-nomination">
+		<div class="row">
+			
+			<div class="col-lg-6 col-md-6">
+				<div class="form-group">
+					<label for="" class="form-label">Name</label>
+					<input type="text" placeholder="Name of Merchants" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="" class="form-label">Web</label>
+					<input type="text" placeholder="Merchant Website" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="" class="form-label">Details</label>
+					<input type="text" placeholder="Your email address" class="form-control">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="form-group">
+					<label for="" class="form-label">About ecommerce merchant</label>
+					<textarea class="form-control">Story about nominated merchant</textarea>
+				</div>
+				<div class="form-action">
+					<button type="button" class="form-btn">Submit</button>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
 	<div ng-switch-when="experts" class="container-fluid">
 		<h3>{{section.title}}</h3>
 		<div class="row">

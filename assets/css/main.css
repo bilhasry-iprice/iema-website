@@ -37,6 +37,44 @@ h3 {
     display: flex;
     flex-wrap: wrap;
 }
+
+.form-nomination{
+    padding: 0px 15px;
+}
+
+.form-control{
+    border:none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+    max-width: 360px;
+    width: 100%;
+    font-size: 14px;
+}
+
+textarea.form-control{
+    border: 1px solid #ddd !important;
+    resize: none;
+    height: 130px;
+}
+
+.form-action{
+    width:100%;
+    max-width: 360px;
+    text-align: right;
+}
+
+.form-action button{
+    background: #30cccd;
+    padding: 8px 20px;
+    border:none; 
+    color: #fff;
+    -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+}
 .row > [class*='col-'] {
     -webkit-box-sizing: border-box;
     display: flex;
@@ -65,7 +103,7 @@ h3 {
     font-weight: bold;
 }
 #main-section a {
-    color: #ff6633 !important;
+    color: #ff6633;
 }
 #about .about_iema {
     padding-right: 35px;
@@ -81,6 +119,17 @@ h3 {
     background: rgba(255, 255, 255, 0.6);
 }
 
+a.more-button{
+    cursor: pointer;
+    background: #ff6633;
+    padding: 8px 10px;
+    color: #fff !important;
+    display: block;
+    width: 125px;
+    text-align: center;
+    margin-top: 15px;
+    clear:both;
+}
 /*=========== EXPERT ============*/
 
 .expert-item,
@@ -495,6 +544,10 @@ span.menu-wording {
     .navbar-nav.content-block{
         padding: 0px 0px !important;
     }
+
+    .more-button{
+        color: #fff !important;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -523,7 +576,8 @@ span.menu-wording {
 
     .side-content-vote, .widget-tc, 
     .banners .col-md-6,
-    .footer-note .col-md-6{
+    .footer-note .col-md-6,
+    .row .col-md-6{
         width: 50%;
         width: -webkit-calc(50% - 10px);
         width: -moz-calc(50% - 10px);
@@ -546,5 +600,9 @@ span.menu-wording {
         margin-top: 25px;
         margin-left: 75px;
         float: right;
+    }
+
+    .more-button{
+        color: #fff !important;
     }
 }
