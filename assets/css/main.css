@@ -352,6 +352,16 @@ span.menu-wording {
     color: #ff6633;
 }
 
+.widget-tc .description, .banners a{
+    border: 1px solid #ddd;
+}
+
+.widget-tc .description img, .banners a img{
+    visibility: hidden;
+}
+
+
+
 @media (max-width: 796px) {
     #countdown {
         padding: 12px 0 0 0;
