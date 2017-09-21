@@ -24,7 +24,7 @@ h3,
 h4 {
     font-weight: 900;
     margin-bottom: 20px;
-    color: #30cccd;
+    color: #086a87;
 }
 h3 {
     font-size: 24px;
@@ -172,7 +172,7 @@ a.more-button{
     color: #ff6633;
     font-size: 14px;
     font-weight: bold;
-    line-height: 16px;
+    line-height: 18px;
     min-height: 36px;
     display: block;
     margin-bottom: 5px;
@@ -527,7 +527,7 @@ span.menu-wording {
 @media(min-width: 767px) {
 
     img{
-        max-width: 100% !important;
+        width: 100% !important;
     }
     .side-content-vote, .widget-tc, 
     .banners .col-md-6,
