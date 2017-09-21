@@ -1,11 +1,5 @@
 [
 	{
-		"id" : "countdown",
-		"slug" : "countdown-section",
-		"title" : "Vote for Your Favorite E-Commerce Merchant",
-		"content" : "<p>Search for your favourite merchant and vote now! <br>Voting ends on<span> 31 Januari 2018</span></p><div class='time-parent'><div class='months'></div><div class='days'></div><div class='hours'></div><div class='minutes'></div><!--<div class='seconds'></div>--></div>"
-	},
-	{
 		"id" : "vote",
 		"slug" : "vote-section",
 		"title" : "Vote for Your Favorite E-Commerce Merchant",
@@ -135,7 +129,7 @@
 		"id" : "merchants",
 		"slug" : "iema-merchants",
 		"title" : "For Merchants",
-		"content" : "<p>No registration is required to participate in iEMA 2016 as all valid and legal e-commerce merchants (within Southeast Asia) automatically qualifies.</p><p>We highly encourage you to shout out and garner as much support from your fan base and consumers for iEMA 2016! Below are downloadable materials you can utilize at your website and social media assets.</p><div class='banners row'><div class='col-md-6'><a href='assets/public/merchant.zip' target='_blank'><img src='assets/img/merchants.png'><small>Download Merchant Banners</small></a></div><div class='col-md-6'><a href='assets/public/blogger.zip' target='_blank'><img src='assets/img/bloggers.png'><small>Download Blog Banners</small></a></div></div><p>Additionally, we can create a dedicated link you may utilize to direct your customers to easily vote and rank your business for iEMA 2016. Kindly send your request to <a href='mailto:award@ipricegroup.com' target='_blank'>award@ipricegroup.com</a> and our representatives will assist you accordingly. Find out more on the iEMA 2016 at our <a href='#faq'>FAQ</a> page. </p>"
+		"content" : "<p>No registration is required to participate in iEMA 2016 as all valid and legal e-commerce merchants (within Southeast Asia) automatically qualifies.</p><p>We highly encourage you to shout out and garner as much support from your fan base and consumers for iEMA 2016! Below are downloadable materials you can utilize at your website and social media assets.</p><div class='banners row'><div class='col-md-6'><a href='assets/public/merchant.zip' target='_blank'><img src='assets/img/merchantbanners.png'><small>Download Merchant Banners</small></a></div><div class='col-md-6'><a href='assets/public/blogger.zip' target='_blank'><img src='assets/img/bloggerbanners.png'><small>Download Blog Banners</small></a></div></div><p>Additionally, we can create a dedicated link you may utilize to direct your customers to easily vote and rank your business for iEMA 2016. Kindly send your request to <a href='mailto:award@ipricegroup.com' target='_blank'>award@ipricegroup.com</a> and our representatives will assist you accordingly. Find out more on the iEMA 2016 at our <a href='#faq'>FAQ</a> page. </p>"
 	}
 
 ]

@@ -35,7 +35,7 @@ a.config(function($routeProvider, $locationProvider){
 .directive('headerImage', function(){
 	return{
 		link : function( scope, element, attrs, tabsCtrl){
-			element[0].innerHTML = '<img src="assets/img/iema_2017_header.svg" />';
+			
 		}
 	}
 });

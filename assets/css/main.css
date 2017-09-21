@@ -38,6 +38,19 @@ h3 {
     flex-wrap: wrap;
 }
 
+.header-image{
+    background: url(../img/iema_header_desktop.svg) no-repeat;
+    background-size: 100%;
+    max-width: 1280px;
+    min-height: 360px;
+    position: relative;
+}
+
+.vote-countdown{
+    margin: 0px auto;
+    width: 640px;
+}
+
 .form-nomination{
     padding: 0px 15px;
 }
@@ -173,8 +186,14 @@ a.more-button{
 }
 .banners .col-md-6 a {
     width: 100%;
-    max-width: 320px;
+    max-width: 430px;
     margin: 15px auto;
+    
+}
+
+.banners .col-md-6 a img{
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 .container-fluid > h3 {
     padding-left: 15px;
@@ -259,12 +278,13 @@ a.more-button{
 }
 /*//========== CountDown ==========//*/
 
-#countdown .description > p {
-    font-size: 20px;
+#countdown p {
+    font-size: 14px;
     color: #333;
     margin: 5px 0 0 0;
     width: 100%;
     text-align: center;
+
 }
 #countdown .description > p > span {
     color: #ff6633;
@@ -272,18 +292,16 @@ a.more-button{
     font-size: 20px;
 }
 #countdown {
-    position: relative;
-    padding: 75px 0 0 0;
-    height: 277px;
-    margin-bottom: 30px;
-    background: #f2f2f2 url(../img/countdown_bg_iema.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 10px;
     background-size: 100%;
     background-position: center;
 }
 #countdown .time-parent {
     margin: 10px auto 0 auto;
-    width: 40%;
-    border-top: 2px solid #fff;
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -301,20 +319,22 @@ a.more-button{
     -webkit-box-sizing: border-box;
     padding: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 56px;
     font-weight: bold;
     text-align: center;
     color: #ff6633;
-    margin-top: 15px;
 }
 div.months:after,
 div.days:after,
 div.hours:after,
 div.minutes:after,
 div.seconds:after {
+    margin-top: -5px;
     content: "Months";
     display: block;
     width: 100%;
+    color: #086A87;
+    font-size: 14px;
 }
 div.days:after {
     content: "Days"
@@ -352,12 +372,9 @@ span.menu-wording {
     color: #ff6633;
 }
 
-.widget-tc .description, .banners a{
-    border: 1px solid #ddd;
-}
 
 .widget-tc .description img, .banners a img{
-    visibility: hidden;
+    visibility: visible;
 }
 
 
@@ -368,11 +385,18 @@ span.menu-wording {
         height: 170px;
     }
     #countdown .time-parent {
-        width: 68%;
+        width: 100%;
     }
 }
 @media (max-width: 639px) {
 
+    .header-image{
+        background: url(../img/iema_header_mobile.svg) no-repeat;
+        background-size: 100%;
+        width: 100%;
+        min-height: 560px;
+        position: relative;
+    }
     .navbar-default{
         background: #dfdfdf !important;
     }
@@ -433,6 +457,10 @@ span.menu-wording {
         border-right: 0px solid #efefef;
     }
 
+    #countdown {
+        bottom: 70px;
+    }
+
     #countdown .col-lg-12.col-md-12 {
         margin:0px auto;
     }
@@ -442,17 +470,21 @@ span.menu-wording {
     #countdown .time-parent div.hours,
     #countdown .time-parent div.minutes,
     #countdown .time-parent div.seconds {
-        font-size: 9px;
+        font-size: 36px;
         margin-top: 5px;
     }
-    #countdown {
-        background: #f2f2f2 url(../img/countdown_bg_iema_mobile.png) no-repeat;
-        background-size: 100%;
-        background-position: center;
-        height: 100px;
-        padding: 15px 0 0 0;
-        margin-bottom: 0px;
+    div.months:after,
+    div.days:after,
+    div.hours:after,
+    div.minutes:after,
+    div.seconds:after {
+        font-size: 12px;
     }
+    
+    #countdown p{
+        padding: 0px 10px;
+        font-size: 12px;
+    }   
 
     .side-content-vote{
         margin-top: 15px;
@@ -614,5 +646,9 @@ span.menu-wording {
 
     .more-button{
         color: #fff !important;
+    }
+
+    #countdown .time-parent {
+        max-width: 560px;
     }
 }

@@ -26,12 +26,17 @@
 	      emailjs.init("user_uHFJS35Sb2Hz4F3rTjATt");
 	   })();
 	</script>
-	<!-- <base href="http://localhost/iema-website/"> -->
+	<!-- <base href="http://10.10.10.31/iema-website/"> -->
 </head>
 <body >
 	<div id="main-container">
 		<header id="main-header">
-			<div class="header-image" header-image></div>
+			<div class="header-image" header-image>
+				<div class="vote-countdown" id="countdown">
+					<div class='time-parent'><div class='months'></div><div class='days'></div><div class='hours'></div><div class='minutes'></div><!-- <div class='seconds'></div> --></div>
+					<p>Voting Period 15th November 2017 - 31st January 2018</span></p>
+				</div>
+			</div>
 			<menu-list></menu-list>
 		</header>
 		<section id="main-section" ng-view id="scroll-container">
