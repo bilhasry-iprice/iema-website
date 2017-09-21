@@ -39,7 +39,7 @@ h3 {
 }
 
 .header-image{
-    background: url(../img/iema_header_desktop.svg) no-repeat;
+    background: #086a87 url(../img/iema_header_desktop.svg) top center no-repeat;
     background-size: 100%;
     max-width: 1280px;
     min-height: 360px;
