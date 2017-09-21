@@ -40,8 +40,8 @@ h3 {
 
 .header-image{
     background: #086a87 url(../img/iema_header_desktop.svg) top center no-repeat;
-    background-size: 100%;
-    max-width: 1280px;
+    background-size: 1280px;
+    width: 100%;
     min-height: 360px;
     position: relative;
 }
