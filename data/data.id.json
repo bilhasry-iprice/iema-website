@@ -1,0 +1,129 @@
+ 
+    {
+        "menus" : [
+                {
+                    "url" : "#vote",
+                    "title" : "Vote"
+                },
+                {
+                    "url" : "#about",
+                    "title" : "About"
+                },
+                {
+                    "url":"#regulations",
+                    "title": "Peraturan"
+                },
+                {
+                    "url":"#special-award",
+                    "title": "Special Award"
+                },
+                {
+                    "url":"#partners",
+                    "title": "Partners"
+                },
+                {
+                    "url":"#merchants",
+                    "title" : "Untuk Merchants"
+                },
+                {
+                    "url":"#faq",
+                    "title": "FAQ"
+                },
+                {
+                    "url":"",
+                    "title" : "Blogging Competition"
+                }
+            ],
+        "footer" : {
+            "title" : "iPrice E-Commerce Merchant Awards 2017",
+            "menus" : [
+                    {
+                        "url" : "#about",
+                        "title" : "About"
+                    },
+                    {
+                        "url":"#regulations",
+                        "title": "Peraturan"
+                    },
+                    {
+                        "url":"#special-award",
+                        "title": "Special Award"
+                    },
+                    {
+                        "url":"#partners",
+                        "title": "Partners"
+                    },
+                    {
+                        "url":"#faq",
+                        "title": "FAQ"
+                    }
+                ],
+            "content" : "<strong>iPrice Group Sdn Bhd</strong><p>Unit A-22-1, 22nd Floor, Northpoint Offices Suites,<br>Mid Valley City, No. 1, Medan Syed Putra,<br>59200 Kuala Lumpur, Malaysia</p><strong>Information &amp; Pertanyaan</strong><a href='mailto:award@ipricegroup.com' target='_blank'>award@ipricegroup.com</a>",
+            "copyright" : "&copy; 2017 iPrice Group Sdn Bhd (1113954 - D). All rights reserved." 
+        },
+        "faq" : {
+                "title" : "Frequently Asked Questions (FAQ)",
+                "consumer" : {
+                        "title" : "Untuk Pelanggan",
+                        "questions" : [
+                                {
+                                    "title" : "Mengapa saya harus memilih?",
+                                    "content" : "<p>Jika Anda sedang membaca ini, kemungkinan Anda telah menikmati kenyamanan berbelanja secara online. Dengan memilih dalam iPrice E-Commerce Awards 2016, Anda dapat memberikan dukungan kepada toko dan merchant e-commerce favorit Anda – serta berkesempatan untuk memenangi sebuah Smartphone Samsung!</p>"
+                                },
+                                {
+                                    "title" : "Bagaimana saya bisa memilih?",
+                                    "content" : "<p>Kunjungi website iEMA 2017 dan Anda akan dapat memilih merchant e-commerce favorit Anda. Anda juga dapat menyertai iPrice Special Award.</p>"
+                                },
+                                {
+                                    "title" : "Apa yang harus saya lakukan untuk mengikuti lucky draw smartphone Samsung?",
+                                    "content" : "<p>Siapa pun yang mengirimkan penyertaan untuk iEMA 2016 layak untuk mengikuti lucky draw. Sementara itu untuk iPrice Special Award, Anda hanya layak jika mengisi kolom email ketika mengirimkan penyertaan.</p>"
+                                }
+                        ]
+                    },
+                    "merchants" : {
+                        "title" : "Untuk Merchant E-Commerce",
+                        "questions" : [
+                                {
+                                    "title" : "Bagaimana saya bisa mendaftarkan bisnis e-commerce saya untuk sesi pemilihan dan penilaian iEMA?",
+                                    "content" : "<img src='assets/img/iEMA-schema-2017.png' >"
+                                },
+                                {
+                                    "title" : "Kapankah periode pemilihan dan penilaiannya?",
+                                    "content" : "<p>15 November 2017 hingga 31 Januari 2018.</p>"
+                                },
+                                {
+                                    "title" : "Bolehkah saya menawarkan hadiah kepada pelanggan saya untuk memilih saya?",
+                                    "content" : "<p>Kami menganjurkan Anda untuk menghimbau pelanggan Anda untuk mendukung Anda melalui media cetak, media sosial dan banner. Anda juga diperbolehkan untuk memberikan hadiah kepada pelanggan Anda seperti mengadakan lucky draw. Bagaimanapun, Anda tidak diperbolehkan untuk memanipulasi opini mereka mengenai pelayanan yang diberikan oleh Anda.</p>"
+                                },
+                                {
+                                    "title" : "Berdasarkan apa para finalis dan pemenang dipilih?",
+                                    "content" : "<ul><li>Dari setiap negara akan dipilih merchant dengan voting tertinggi untuk meraih penghargaan “The Most Popular E-Commerce Merchant of the Year 2017”.</li><li>Dari setiap negara akan dipilih merchant dengan ranking tertinggi untuk meraih penghargaan “The Highest Quality E-Commerce Merchant of the Year 2017”.</li></ul>"
+                                },
+                                {
+                                    "title" : "Apa keuntungan mengikuti iEMA?",
+                                    "content" : "<p>Para pemenang dan finalis akan menerima sertifikat digital dan sebuah e-badge (lencana online) yang dapat dipasang pada website e-commerce mereka. Para pemenang juga dapat menerima sebuah piala yang akan diserahkan pada konferensi eTail Asia di Singapura. Selama periode iEMA, iPrice akan memberikan liputan PR yang kuat untuk mendapatkan banyak publisitas, jika bisnis Anda menjadi salah satu pemenang atau finalis iEMA, bisnis Anda akan dicantumkan dalam press material dan kegiatan publisitas lainnya.</p>"
+                                },
+                                {
+                                    "title" : "Apakah bisnis e-commerce saya dapat berpartisipasi dalam tiga (Most Popular Merchant, High Quality Merchant and iPrice Special Award) kategori?",
+                                    "content" : "<p>Ya. Setelah menerima sebuah voting, Anda akan secara otomatis tercalonkan untuk Most Popular Merchant Award dan High Quality Merchant Award. Namun, penyertaan Anda untuk mengikuti iPrice Special Award hanya aktif ketika seseorang mencalonkan perusahaan Anda.</p>"
+                                },
+                                {
+                                    "title" : "Kapan dan di mana finalis iEMA diumumkan?",
+                                    "content" : "<p>Para pemenang dan finalis akan diumumkan pada upacara penghargaan eTail Asia 2017’s di Sheraton Towers, Singapura pada tanggal 6 - 8 Maret 2018.</p>"
+                                },
+                                {
+                                    "title" : "Di mana vote, review dan ranking akan ditampilkan serta disimpan?",
+                                    "content" : "<p>Vote dan review akan disimpan secara aman dengan TrustedCompany.com. Data yang dikumpulkan akan disimpan dalam server yang senantiasa update dengan software terbaru untuk mencegah akses-akses illegal. Tidak akan ada ranking bisnis e-commerce yang ditampilkan pada website iEMA.</p>"
+                                },
+                                {
+                                    "title" : "Bagaimana saya bisa yakin kalau reputasi bisnis saya tidak akan dibahayakan oleh iEMA 2017 ?",
+                                    "content" : "<p>TrustedCompany.com akan mengumpulkan vote dan review selama iEMA 2016. Mereka memiliki tim khusus untuk memonitor semua vote dan review yang masuk, sehingga mencegah munculnya review palsu pada database mereka.</p>"
+                                },
+                                {
+                                    "title" : "Apa yang terjadi jika nilai saya rendah pada iEMA?",
+                                    "content" : "<p>Para peserta dihimbau untuk mempublikasi iEMA untuk mengumpulkan dukungan dari pelanggan-pelanggan setia mereka demi menjamim review yang diterima mencerminkan pengalaman pelanggan-pelanggan mereka. Bisnis e-commerce dengan ranking yang rendah tidak akan dipublikasikan dalam bentuk apapun.</p>"
+                                }
+                        ]
+                    }
+                }
+    }

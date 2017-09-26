@@ -28,6 +28,10 @@
                 {
                     "url":"#faq",
                     "title": "FAQ"
+                },
+                {
+                    "url":"",
+                    "title" : "Blogging Competition"
                 }
             ],
         "footer" : {
@@ -50,7 +54,7 @@
                         "title": "Partners"
                     },
                     {
-                        "url":"#faq",
+                        "url":"/faq",
                         "title": "FAQ"
                     }
                 ],

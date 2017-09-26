@@ -1,29 +1,25 @@
 
 var prev= '';
+var data = 'data.json';
+var data_section = 'section.data.json';
 var a = angular.module("myApp", ['ngSanitize', 'ngRoute']);
 
 a.config(function($routeProvider, $locationProvider){
+	$locationProvider.html5Mode(true);
 	$routeProvider
-	.when("/faq", {
-		templateUrl : "faq.html",
-		controller : function( $scope){
-			
-			$scope.$on('$routeChangeSuccess', function(){
-				$('html,body').animate({
-	                       scrollTop: 0
-	                  }, 1000);
-				prev = 'faq';
+	.when('/:lang', {
+		templateUrl : "home.html",
+		controller : function($scope, $location, $routeParams){
 
-				$('#main-menu').collapse('hide');
-			});
-
+				data = 'data.th.json';
+				data_section = 'section.data.en.json';
 			
 		}
 	})
 	.otherwise({
 		templateUrl : "home.html",
-		controller : function($scope, $location){
-			
+		controller : function($scope, $location, $routeParams){
+
 			$scope.$on('$viewContentLoaded', function(){
 	          $('#main-menu').collapse('hide');
 	        });
