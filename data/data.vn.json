@@ -1,0 +1,125 @@
+
+    {
+        "menus" : [
+                {
+                    "url" : "#vote",
+                    "title" : "Bình Chọn"
+                },
+                {
+                    "url" : "#about",
+                    "title" : "Giới Thiệu"
+                },
+                {
+                    "url":"#regulations",
+                    "title": "Thể Lệ"
+                },
+                {
+                    "url":"#special-award",
+                    "title": "Special Award"
+                },
+                {
+                    "url":"#partners",
+                    "title": "Đối Tác"
+                },
+                {
+                    "url":"#merchants",
+                    "title" : "Dành cho doanh nghiệp"
+                },
+                {
+                    "url":"#faq",
+                    "title": "Câu hỏi thường gặp"
+                }
+            ],
+        "footer" : {
+            "title" : "iPrice E-Commerce Merchant Awards 2017",
+            "menus" : [
+                    {
+                        "url" : "#about",
+                        "title" : "Giới Thiệu"
+                    },
+                    {
+                        "url":"#regulations",
+                        "title": "Thể Lệ"
+                    },
+                    {
+                        "url":"#special-award",
+                        "title": "Special Award"
+                    },
+                    {
+                        "url":"#partners",
+                        "title": "Đối Tác"
+                    },
+                    {
+                        "url":"/faq",
+                        "title": "Câu hỏi thường gặp"
+                    }
+                ],
+            "content" : "<strong>iPrice Group Sdn Bhd</strong><p>Unit A-22-1, 22nd Floor, Northpoint Offices Suites,<br>Mid Valley City, No. 1, Medan Syed Putra,<br>59200 Kuala Lumpur, Malaysia</p><strong>Information &amp; Enquiries</strong><a href='mailto:award@ipricegroup.com' target='_blank'>award@ipricegroup.com</a>",
+            "copyright" : "&copy; 2017 iPrice Group Sdn Bhd (1113954 - D). All rights reserved." 
+        },
+        "faq" : {
+                "title" : "Câu Hỏi Thường Gặp",
+                "consumer" : {
+                        "title" : "Dành cho Khách Hàng",
+                        "questions" : [
+                                {
+                                    "title" : "Vì sao bạn nên tham gia bình chọn?",
+                                    "content" : "<p>Nếu bạn đang truy cập vào trang này, chắc hẳn bạn đang hài lòng với trải nghiệm mua sắm thương mại điện tử. Tham gia bình chọn tại iPrice E-Commerce Merchant Awards 2017 Malaysia sẽ là chiếc cầu nối giữa bạn và doanh nghiệp thương mại điện tử yêu thích của mình - và cơ hội sở hữu chiếc điện thoại thông minh Samsung có thể là của bạn!</p>"
+                                },
+                                {
+                                    "title" : "Bình chọn như thế nào?",
+                                    "content" : "<p>Truy cập vào website iEMA 2017 (insert link) và bạn sẽ có thể dễ dàng đăng ký bình chọn cho doanh nghiệp thương mại điện tử yêu thích của mình. Bạn cũng có thể tham gia tương tự cho giải iPrice Special Award.</p>"
+                                },
+                                {
+                                    "title" : "Điều kiện bốc thăm trúng thưởng điện thoại thông minh Samsung?",
+                                    "content" : "<p>Bất kỳ ai tham gia đăng ký bình chọn chương trình iEMA 2017 đều có khả năng trở thành người may mắn chiến thắng. Đối với giải thưởng iPrice Special Award, bạn sẽ đủ điều kiện dự thưởng khi điền đầy đủ thông tin tại cột email trên phiếu đăng ký bình chọn của mình.</p>"
+                                }
+                        ]
+                    },
+                    "merchants" : {
+                        "title" : "Dành cho Doanh Nghiệp",
+                        "questions" : [
+                                {
+                                    "title" : "Làm sao để ứng cử doanh nghiệp TMĐT của bạn vào danh sách bình chọn và đánh giá iEMA?",
+                                    "content" : "<img src='assets/img/iEMA-schema-2017.png' >"
+                                },
+                                {
+                                    "title" : "Thời gian bình chọn và đánh giá diễn ra khi nào",
+                                    "content" : "<p>Chương trình sẽ diễn ra từ 15/11/2017 đến 31/01/2018.</p>"
+                                },
+                                {
+                                    "title" : "Doanh nghiệp chúng tôi có thể khuyến khích khách hàng bình chọn cho mình không?",
+                                    "content" : "<p>Chúng tôi ủng hộ bạn vận động khách hàng tham gia đăng ký bình chọn cho mình dưới bất kỳ hình thức nào bao gồm newsletter, mạng xã hội, và banner. Bên cạnh đó, bạn cũng có thể khuyến khích khách hàng của mình bằng chương trình rút thăm trúng thưởng để tạo sức hút, v.v… Tuy nhiên, doanh nghiệp không được phép gò ép ý kiến của khách hàng về chất lượng dịch vụ của mình.</p>"
+                                },
+                                {
+                                    "title" : "Tiêu chí nào để chọn ra các ứng cử viên chung cuộc và người chiến thắng?",
+                                    "content" : "<ul> <li>Doanh nghiệp sở hữu số phiếu bình chọn cao nhất của mỗi quốc gia sẽ giành chiến thắng hạng mục “The Most Popular E-Commerce Merchant of the Year 2016“ (Doanh Nghiệp Thương Mại Điện Tử Được Yêu Thích Nhất 2016).</li><li>Doanh nghiệp sở hữu tỉ lệ đánh giá sao trung bình cao nhất sẽ giành chiến thắng hạng mục “The Highest Quality E-Commerce Merchant of the Year 2016” (Doanh Nghiệp Thương Mại Điện Tử Chất Lượng Cao 2016).</li></ul>"
+                                },
+                                {
+                                    "title" : "Chương trình iEMA có thể đem lại lợi ích gì cho doanh nghiệp của bạn?",
+                                    "content" : "<p>Những doanh nghiệp giành chiến thắng và nằm trong danh sách chung cuộc sẽ vinh dự nhận một chứng chỉ digital và e-badge (huy hiệu điện tử) nhằm khẳng định chất lượng dịch vụ đáng tin cậy của doanh nghiệp ngay trên website thương mại điện tử của mình. Những người chiến thắng cũng sẽ được trao nhận chiếc cúp thắng cuộc tại Hội nghị thường niên eTail Asia diễn ra tại Singapore. Bên cạnh đó, sự hỗ trợ tích cực từ hoạt động PR của iPrice sẽ diễn ra sôi nổi xuyên suốt chương trình iEMA; tên tuổi của doanh nghiệp giành chiến thắng hoặc nằm trong danh sách chung cuộc sẽ được đề cập rộng rãi trên các kênh in ấn và các hoạt động truyền thông đa dạng khác.</p>"
+                                },
+                                {
+                                    "title" : "Doanh nghiệp TMĐT của bạn có thể tham gia cùng lúc 3 hạng mục và giải thưởng của iEMA (Doanh Nghiệp Được Yêu Thích Nhất, Chất Lượng Cao và iPrice Special Award)?",
+                                    "content" : "<p>Vâng, hoàn toàn có thể. Sau khi nhận được lá phiếu bình chọn đầu tiên, doanh nghiệp của bạn sẽ nhanh chóng tự động được đưa vào những hạng mục giải thưởng yêu thích và chất lượng. Tuy nhiên, đối với giải thưởng iPrice Special Award, doanh nghiệp của bạn chỉ có thể lọt vào danh sách bình chọn khi được ứng cử bởi một ai đó.</p>"
+                                },
+                                {
+                                    "title" : "Danh sách chung cuộc sẽ được công bố vào khi nào và tại đâu?",
+                                    "content" : "<p>Doanh nghiệp giành chiến thắng và danh sách chung cuộc tại các hạng mục giải thưởng sẽ được công bố tại Hội nghị thường niên eTail Asia 2018 diễn ra tại Marina Bay, vào ngày 08-09/03/2018.</p>"
+                                },
+                                {
+                                    "title" : "Số phiếu bình chọn, đánh giá và thứ hạng sẽ được công bố và lưu giữ ở đâu?",
+                                    "content" : "<p>Tất cả số phiếu bình chọn và đánh giá về doanh nghiệp sẽ được đảm bảo an toàn bởi công ty TrustedCompany.com. Mọi dữ liệu thu thập được lưu trữ bởi hệ thống bảo mật máy chủ cập nhật liên tục các phần mềm an ninh nhằm ngăn chặn bất kỳ sự đăng nhập trái phép nào từ bên ngoài. Và thứ hạng của các doanh nghiệp TMĐT sẽ không được công bố trên website iMEA.</p>"
+                                },
+                                {
+                                    "title" : "Làm sao bạn có thể an tâm rằng hình ảnh doanh nghiệp của mình sẽ không bị làm lệch lạc bởi chương trình iEMA 2017?",
+                                    "content" : "Công ty TrustedCompany.com sẽ đứng ra chịu trách nhiệm trong việc thu thập số phiếu bình chọn và đánh giá xuyên suốt chương trình iEMA 2016. Một đội ngũ chuyên theo dõi và giám sát toàn bộ lượt bình chọn và ý kiến đánh giá sẽ được bố trí dành riêng cho chương trình, từ đó ngăn chặn hiệu quả những đánh giá giả mạo xuất hiện trên hệ thống dữ liệu của họ."
+                                },
+                                {
+                                    "title" : "Nếu doanh nghiệp của bạn đạt điểm số không tốt tại chương trình iEMA 2017?",
+                                    "content" : "Tất cả những doanh nghiệp tham gia chương trình đều được chúng tôi khuyến khích tăng cường sự hỗ trợ từ lượng khách hàng trung thành của bạn qua việc kêu gọi sự ủng hộ thông qua chương trình iEMA, nhằm đảm bảo chất lượng đánh giá của doanh nghiệp được phản ánh trung thực nhất qua trải nghiệm mua sắm thực tế từ khách hàng. Đồng thời, những doanh nghiệp TMĐT có thứ hạng thấp cũng sẽ không được công bố trên bất kỳ hình thức truyền thông nào."
+                                }
+                        ]
+                    }
+                }
+    }

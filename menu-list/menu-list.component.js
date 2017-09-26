@@ -1,6 +1,7 @@
 a.component('menuList', {
     templateUrl: 'menu-list/menu-list.template.html',
-    controller: function menuListController( $scope, $http, $document) {
+    controller: function menuListController( $scope, $http, $document, $routeParams) {
+      
       $http({
       	method: "GET",
       	url: "data/data.json"
