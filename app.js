@@ -11,8 +11,10 @@ a.config(function($routeProvider, $locationProvider){
 		templateUrl : "home.html",
 		controller : function($scope, $location, $routeParams){
 
-				data = 'data.th.json';
-				data_section = 'section.data.en.json';
+				lang = $routeParams.lang;
+
+				data = 'data.'+ lang +'.json';
+				data_section = 'section.data.'+lang+'.json';
 			
 		}
 	})

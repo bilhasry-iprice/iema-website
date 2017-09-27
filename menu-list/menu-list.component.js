@@ -4,7 +4,7 @@ a.component('menuList', {
       
       $http({
       	method: "GET",
-      	url: "data/data.json"
+      	url: "data/" + data
       }).then(function mySuccess(response){
       	 $scope.menus = response.data.menus;
 

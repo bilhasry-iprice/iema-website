@@ -3,7 +3,7 @@ a.component('faqList', {
     controller: function faqController( $scope, $http ) {
       $http({
       	method: "GET",
-      	url: "data/data.json"
+      	url: "data/" + data
       }).then(function mySuccess(response){
       	 $scope.faq = response.data.faq;
          
