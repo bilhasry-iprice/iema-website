@@ -2,7 +2,7 @@ var open = false;
 a.
   component('sectionList', {
     templateUrl: 'section-list/section-list.template.html',
-    controller: function sectionListController( $scope, $http, $location, $window, $sce, $routeParams) {
+    controller: function sectionListController( $scope, $http, $location, window, $sce, $routeParams) {
       
       $http({
       	method: "GET",
@@ -14,7 +14,7 @@ a.
           $scope.trustAsHtml = function(html) {
             return $sce.trustAsHtml(html);
           }
-          $window.onload = function(){
+          window.onload = function(){
 
               var deadline = new Date("2018/01/31");
                 function updateClock(){
