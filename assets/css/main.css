@@ -710,3 +710,27 @@ span.menu-wording {
         padding: 0px 30px;
     }
 }
+
+.widget-tc{
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 20px !important;
+}
+.widget-tc img{
+    max-width:250px !important;
+    width: 100%;
+}
+
+.widget-tc h1{
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 25px;
+
+}
+
+.col-lg-6.col-md-6.side-content-vote h3{
+    font-size: 24px;
+    margin: 0px;
+    margin-bottom: 25px;
+    line-height: 36px;
+}
