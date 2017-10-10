@@ -1,4 +1,4 @@
-var open = false;
+var open_collapse = false;
 a.
   component('sectionList', {
     templateUrl: 'section-list/section-list.template.html',
@@ -40,14 +40,14 @@ a.
 
                 $('.more-button').on('click', function(){
                   
-                  if( ! open ){
+                  if( ! open_collapse ){
                     $('.more-content').removeClass('hidden');
                     $(this).html('Read Less');
-                    open= true;
+                    open_collapse= true;
                   }else{
                     $('.more-content').addClass('hidden');
                     $(this).html('Read More');
-                    open= false;
+                    open_collapse= false;
                   }
                   
                 });
@@ -96,13 +96,6 @@ a.
                     }
                 });
 
-                (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-             js.src = "https://dev2.trustedcompany.com/statics/javascripts/plugins.js";
-              fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'tc-plugins'));
           };
       });
     }
