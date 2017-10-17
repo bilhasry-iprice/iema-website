@@ -264,6 +264,7 @@ a.more-button{
 }
 .faq-merchants {
     padding: 30px 0px 50px 0px;
+    display: table;
 }
 .faq-item {
     padding-left: 25px;
@@ -734,4 +735,8 @@ span.menu-wording {
     margin: 0px;
     margin-bottom: 25px;
     line-height: 36px;
+}
+
+#main-footer{
+    clear:both;
 }
