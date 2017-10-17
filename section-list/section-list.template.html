@@ -84,7 +84,7 @@
 	<div ng-switch-when="experts" class="container-fluid">
 		<h3>{{section.title}}</h3>
 		<div class="row">
-			<figure ng-repeat="expert in section.content.experts" class="col-md-4 expert-item">
+			<figure ng-repeat="expert in section.content.experts" class="col-md-6 expert-item">
 				<amp-img ng-src="{{expert.image}}" alt="" layout="fixed" width="250" height="250"></amp-img>
 				<figcaption>
 					<h4>{{expert.name}}</h4>
@@ -97,7 +97,7 @@
 	<div ng-switch-when="partners" class="container-fluid">
 		<h3>{{section.title}}</h3>
 		<div class="row">
-			<figure ng-repeat="partner in section.content.partners" class="col-md-4 partner-item">
+			<figure ng-repeat="partner in section.content.partners" class="col-md-6 partner-item">
 				<a href="{{ partner.link}}" target="_blank">
 					<amp-img src="{{partner.image}}" layout="responsive" width="250" height="141"  alt=""></amp-img>
 				</a>

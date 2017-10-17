@@ -175,8 +175,8 @@ a.more-button{
     max-width: 250px !important;
     max-height: 141px;
 }
-.expert-item:nth-child(3n),
-.partner-item:nth-child(3n) {
+.expert-item:nth-child(2n),
+.partner-item:nth-child(2n) {
     border-right: 0px;
 }
 .expert-item img,
@@ -691,8 +691,9 @@ span.menu-wording {
     }
     .footer-list {
         margin-top: 25px;
-        margin-left: 75px;
+        margin-left: 45px;
         float: right;
+        text-align: right;
     }
 
     .form-control{
