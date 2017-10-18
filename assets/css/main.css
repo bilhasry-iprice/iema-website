@@ -383,6 +383,9 @@ div.hours:after {
 div.minutes:after {
     content: "Mins"
 }
+div.seconds:after {
+    content: "Secs"
+}
 .digit {
     display: block;
     font-size: 40px;
