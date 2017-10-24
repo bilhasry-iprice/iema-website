@@ -10,10 +10,6 @@
                     "title" : "About"
                 },
                 {
-                    "url":"#regulations",
-                    "title": "Rules"
-                },
-                {
                     "url":"#special-award",
                     "title": "Special Award"
                 },
@@ -24,6 +20,10 @@
                 {
                     "url":"#merchants",
                     "title" : "For Merchants"
+                },
+                {
+                    "url":"#regulations",
+                    "title": "Rules"
                 },
                 {
                     "url":"#faq",
