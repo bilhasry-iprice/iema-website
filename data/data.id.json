@@ -85,7 +85,7 @@
                         "questions" : [
                                 {
                                     "title" : "Bagaimana saya bisa mendaftarkan bisnis e-commerce saya untuk sesi pemilihan dan penilaian iEMA?",
-                                    "content" : "<img src='assets/img/iEMA-schema-2017.png' >"
+                                    "content" : "Penghargaan ini terbuka bagi semua e-commerce yang menjalankan bisnis di regional Asia Tenggara. Jika perusahaan e-commerce Anda tidak secara otomatis masuk ke dalam formulir voting TrustedCompany, kirim email ke <a href='mailto:award@ipricegroup.com'>award@ipricegroup.com</a> untuk berpartisipasi dalam kompetisi iEMA."
                                 },
                                 {
                                     "title" : "Kapankah periode pemilihan dan penilaiannya?",
@@ -97,19 +97,15 @@
                                 },
                                 {
                                     "title" : "Berdasarkan apa para finalis dan pemenang dipilih?",
-                                    "content" : "<ul><li>Dari setiap negara akan dipilih merchant dengan voting tertinggi untuk meraih penghargaan “The Most Popular E-Commerce Merchant of the Year 2017”.</li><li>Dari setiap negara akan dipilih merchant dengan ranking tertinggi untuk meraih penghargaan “The Highest Quality E-Commerce Merchant of the Year 2017”.</li></ul>"
+                                    "content" : "<ul><li>Dari setiap negara akan dipilih merchant dengan voting tertinggi untuk meraih penghargaan \"The Most Popular E-Commerce Merchant of the Year 2017\".</li><li>Dari setiap negara akan dipilih merchant dengan ranking tertinggi untuk meraih penghargaan \"The Highest Quality E-Commerce Merchant of the Year 2017\".</li></ul>"
                                 },
                                 {
                                     "title" : "Apa keuntungan mengikuti iEMA?",
-                                    "content" : "<p>Para pemenang dan finalis akan menerima sertifikat digital dan sebuah e-badge (lencana online) yang dapat dipasang pada website e-commerce mereka. Para pemenang juga dapat menerima sebuah piala yang akan diserahkan pada konferensi eTail Asia di Singapura. Selama periode iEMA, iPrice akan memberikan liputan PR yang kuat untuk mendapatkan banyak publisitas, jika bisnis Anda menjadi salah satu pemenang atau finalis iEMA, bisnis Anda akan dicantumkan dalam press material dan kegiatan publisitas lainnya.</p>"
+                                    "content" : "<p>Para pemenang dan finalis akan menerima sertifikat digital dan sebuah e-badge (lencana online) yang dapat dipasang pada website e-commerce mereka. Selama periode iEMA, iPrice akan memberikan liputan PR yang kuat untuk mendapatkan banyak publisitas, jika bisnis Anda menjadi salah satu pemenang atau finalis iEMA, bisnis Anda akan dicantumkan dalam press material dan kegiatan publisitas lainnya.</p>"
                                 },
                                 {
                                     "title" : "Apakah bisnis e-commerce saya dapat berpartisipasi dalam tiga (Most Popular Merchant, High Quality Merchant and iPrice Special Award) kategori?",
                                     "content" : "<p>Ya. Setelah menerima sebuah voting, Anda akan secara otomatis tercalonkan untuk Most Popular Merchant Award dan High Quality Merchant Award. Namun, penyertaan Anda untuk mengikuti iPrice Special Award hanya aktif ketika seseorang mencalonkan perusahaan Anda.</p>"
-                                },
-                                {
-                                    "title" : "Kapan dan di mana finalis iEMA diumumkan?",
-                                    "content" : "<p>Para pemenang dan finalis akan diumumkan pada upacara penghargaan eTail Asia 2017’s di Sheraton Towers, Singapura pada tanggal 6 - 8 Maret 2018.</p>"
                                 },
                                 {
                                     "title" : "Di mana vote, review dan ranking akan ditampilkan serta disimpan?",
