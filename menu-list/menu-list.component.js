@@ -1,7 +1,11 @@
 a.component('menuList', {
     templateUrl: 'menu-list/menu-list.template.html',
     controller: function menuListController( $scope, $http, $document, $routeParams) {
-      
+      var loc = window.location.href;
+      var lang = loc.split("/").pop(-1);
+      if( lang != null){
+        data = 'data.'+lang+'.json';
+      }
       $http({
       	method: "GET",
       	url: "data/" + data

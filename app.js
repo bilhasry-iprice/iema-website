@@ -10,10 +10,11 @@ a.config(function($routeProvider, $locationProvider){
 	.when('/:lang', {
 		templateUrl : "home.html",
 		controller : function($scope, $location, $routeParams){
-
+				
 				lang = $routeParams.lang;
 
 				data = 'data.'+ lang +'.json';
+				
 				data_section = 'section.data.'+lang+'.json';
 			
 		}
